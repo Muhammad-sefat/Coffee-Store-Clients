@@ -15,6 +15,15 @@ function App() {
         <li>
           <Link to={"/addcoffee"}>AddCoffee</Link>
         </li>
+        <li>
+          <Link to={"/login"}>Login</Link>
+        </li>
+        <li>
+          <Link to={"/signup"}>Sign Up</Link>
+        </li>
+        <li>
+          <Link to={"/users"}>Users</Link>
+        </li>
       </ol>
       <div className="px-10 mx-auto">
         <h2 className="text-3xl font-semibold py-5">My All Coffee</h2>
